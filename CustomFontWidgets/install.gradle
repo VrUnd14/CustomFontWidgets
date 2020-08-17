@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'awesome.vrund.customfontwidgets' // PACKAGE NAME FROM BINTRAY ACCOUNT
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'awesome.vrund.customfontwidgets' // PACKAGE NAME FROM BINTRAY ACCOUNT
+                artifactId 'CustomFontWidgets' // THE NAME OF YOUR MODULE
+
+                name 'FilesPickerHelper' // YOUR LIBRARY NAME
+                description 'Android Ui Widgets that you can use with custom fonts' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/VrUnd14/CustomFontWidgets' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'VrUnd14' //YOUR GITHUB ID
+                        name 'Vrund Purohit' //YOUR NAME
+                        email 'vrund14@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/VrUnd14/CustomFontWidgets.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/VrUnd14/CustomFontWidgets.git' // YOUR GIT REPO
+                    url 'https://github.com/VrUnd14/CustomFontWidgets' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}

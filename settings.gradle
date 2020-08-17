@@ -1,0 +1,3 @@
+include ':CustomFontWidgets'
+include ':app'
+rootProject.name = "CustomFontWidgetsSample"
