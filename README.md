@@ -1,5 +1,5 @@
 # CustomFontWidgets
-Android library for setting custom fonts to UI Widgets. Works with 4.2+
+Android library for setting custom fonts to UI Widgets. Works with 4.2+ [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 currently it includes following UI Widgets.
 * FontTextView
