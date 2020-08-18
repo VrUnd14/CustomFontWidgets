@@ -21,7 +21,7 @@ dependencies {
 }
 ```
 <b>2.</b> create `fonts` folder inside your `assets` folder. and move your fonts inside that folder
-<div align="center">
+<div align="left">
     <img src="/Screenshots/Screenshot 2020-08-18 at 11.04.08 AM.png" height="100px"</img> 
 </div>
 
