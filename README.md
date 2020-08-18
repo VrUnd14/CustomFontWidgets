@@ -9,7 +9,7 @@ currently it includes following UI Widgets.
 * FontButton
 
 ### Demo
-<div align="center">
+<div align="left">
     <img src="/Screenshots/Screenshot_20200818-103901_CustomFontWidgetsSample.jpg" width="420px" height="800"</img> 
 </div>
 
