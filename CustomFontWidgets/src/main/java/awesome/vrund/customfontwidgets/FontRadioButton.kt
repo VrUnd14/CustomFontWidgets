@@ -25,8 +25,19 @@ class FontRadioButton : AppCompatRadioButton {
         val customFont = a.getString(R.styleable.CustomTextView_customFont)
         if (customFont != null) {
             val typeface = Typeface.createFromAsset(context.assets, "fonts/$customFont")
-            super.setTypeface(typeface, getTypeface().style)
+            if (getTypeface() != null)
+                super.setTypeface(typeface, getTypeface().style)
+            else
+                super.setTypeface(typeface, Typeface.NORMAL)
         }
         a.recycle()
+    }
+
+    fun setCustomFont(font: String) {
+        val typeface = Typeface.createFromAsset(context.assets, "fonts/$font")
+        if (getTypeface() != null)
+            super.setTypeface(typeface, getTypeface().style)
+        else
+            super.setTypeface(typeface, Typeface.NORMAL)
     }
 }
